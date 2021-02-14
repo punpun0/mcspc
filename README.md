@@ -5,7 +5,6 @@ Converts Minecraft Bedrock Edition skin packs to a format the Minecraft Java Lau
 1. Place your skin pack without its folder (important) in ./input
 2. Run convert.py
 3. Program creates a launcher_skins.json, replace it with the one in %appdata%/.minecraft/
-???. Profit!
 
 Warning! All of your previous skins will be replaced with the ones in the skin pack.
 
