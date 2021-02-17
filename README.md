@@ -13,11 +13,7 @@ If you want the skin thumbnails to be rendered:
 Instructions how to use:
 1. Place your skin pack without its folder (important!) in ./input
 2. Run convert.py
-<<<<<<< HEAD
 3. Program creates a 'launcher_skins.json' file, replace it with the one in %appdata%/.minecraft/
-=======
-3. Program creates a launcher_skins.json, replace it with the one in %appdata%/.minecraft/
->>>>>>> ac80ea42ffab4f82f55ef9aa9b6729a5175f7a9b
 
 Warning! All of your previous skins will be replaced with the ones in the skin pack.
 
