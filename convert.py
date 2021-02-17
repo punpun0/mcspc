@@ -6,9 +6,14 @@ from create_page import createPage
 from grab_images import grabImages
 
 if __name__ == "__main__":
-    with open("./input/skins.json", "r", encoding="utf-8") as f:
-        skins_data = json.loads(f.read())
-
+    try:
+        with open("./input/skins.json", "r", encoding="utf-8") as f:
+            skins_data = json.loads(f.read())
+    except FileNotFoundError:
+        print("'skins.json' not found. Did you place your skin pack without its folder?")
+        input()
+        exit
+        
     data = {}
     images = []
     counter = 1
